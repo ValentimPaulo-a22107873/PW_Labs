@@ -1,0 +1,49 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 200px;
+    color: #CBE4DE;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.container h1:hover {
+    -webkit-text-stroke: 0px #CBE4DE;
+    color: transparent;
+    cursor: context-menu;
+}
+
+.container a {
+    text-decoration: none;
+    display: inline-block;
+    color: #CBE4DE;
+    font-size: 24px;
+    border: 2px solid #CBE4DE;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 50px;
+    transition: 0.3s;
+}
+
+.container a:hover {
+    box-shadow: 5px 5px 15px #ffffff;
+}
+
+.video {
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
