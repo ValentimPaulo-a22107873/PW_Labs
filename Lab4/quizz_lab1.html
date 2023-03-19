@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Lisbon</title>
+        <meta name="author" content="Valentim Paulo">
+        <meta name="description" content="Website about Lisbon">
+        <meta name="keywords" content="keywords">
+
+        <link rel="stylesheet" href="Lab1_Lab2/style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="navbar">
+                <a href="index.html">Universe</a>
+
+
+                <div>
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            <a href="main.html" class="home">Home</a> 
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                    </div>
+
+                    <div class="dropdown">
+
+                        <button class="dropbtn">
+                            Lab1/2
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="info_lab1.html">Information</a>
+                            <a href="local_lab1.html">Location</a>
+                            <a href="multimedia_lab1.html">Multimedia</a>
+                            <a href="quizz_lab1.html">Quizz</a>
+                            <a href="html5-css_lab1.html">Html5-Css</a>
+                        </div>
+                    </div>
+    
+                    <div class="dropdown">
+    
+                        <button class="dropbtn">
+                            Lab3
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="index_lab2.html">Main</a>
+                            <a href="grid1_lab2.html">Grid1</a>
+                            <a href="grid2_lab2.html">Grid2</a>
+                            <a href="grid3_lab2.html">Grid3</a>
+                            <a href="grid4_lab2.html">Grid4</a>
+                            <a href="grid5_lab2.html">Grid5</a>
+                            <a href="grid6_lab2.html">Grid6</a>
+                        </div>
+                    </div>
+                </div>
+
+                <a href=""></a>
+                
+            </div>
+        </header>
+
+        <div class="title">
+            <h1>Lisbon</h1>
+            <img src="Lab1_Lab2/images/images.jpg" alt="Image of Lisbon">
+        </div>
+
+        
+
+        <hr>
+
+        <section>
+            <h3>Quizz</h3>
+            <p>In this page we will make a short quizz about the city Lisbon.</p>
+
+            <form action="mailto:valentimspaulo@gmail.com" method="POST" enctype="multipart/form-data">
+                
+                <fieldset>
+                    <b>City Quizz!</b>
+
+                    <p>
+                        <fieldset>
+                            <b>Info</b>
+
+                            <fieldset>
+                                <label>Name: </label>
+                                <input type="text" name="Name:" value="">
+
+                            </fieldset>
+
+                            <fieldset>
+                                <label>Last Name: </label> 
+                                <input type="text" name="LastName:" value="">
+
+                            </fieldset>
+
+                            <fieldset>
+                                 <label>Email: </label>
+                                <input type="email" name="email" id="">
+
+                            </fieldset>
+
+                            <fieldset>
+                                <b>Other stuff</b> <br>
+
+                                <label>Age: </label> 
+                                <input type="number">
+
+                                <br>
+
+                                <label>Gender: </label> <br>
+                                <select name="Gender" id="gender" size="3">
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                    <option>Other</option>
+                                </select>
+
+                            </fieldset>
+
+                        </fieldset> 
+                    </p>
+
+                    <p>
+                        <fieldset>
+                            <b>Questions</b>
+
+                            <fieldset>
+                                <b>1.</b> <br>
+
+                                <label>Where is Lisbon located? <br> Awsner: </label>
+                                <input type="text" name="InfoQ1" value="">
+
+                            </fieldset>
+
+                            <fieldset>
+                                <b>2.</b> <br>
+                                
+                                <label>Lisbon was built near: </label> <br>
+                                <input type="checkbox" name="InfoQ3-wrong" value=""> River <br>
+                                <input type="checkbox" name="InfoQ3-wrong" value=""> Sea <br>
+                                <input type="checkbox" name="InfoQ3-correct" value=""> Both
+
+                            </fieldset>
+
+                            <fieldset>
+                                <b>3.</b>
+
+                                <div>
+                                    <p>
+                                        <img src="images/padrao.jpg" alt=""> <br>
+                                        <label>What is this monument: <br> </label> 
+                                    </p>
+
+                                    <select name="Padrao" id="padrao">
+                                        <option>Padrao dos Portugueses</option>
+                                        <option>Portugueses e os Descobrimentos</option>
+                                        <option>Padrao dos Descbrimentos</option>
+                                        <option>Homem do Leme</option>
+                                    </select>
+                                </div>
+
+                            </fieldset>
+
+                        </fieldset>
+                    </p>
+
+                    <p>
+                        <fieldset>
+                            <b>Conclusions</b>
+
+                            <div>
+                                <p>
+                                    <label>De-nos a sua opinião:</label> <br>
+                                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                                </p>
+                                
+                                <p>
+                                    <label>When are you awsnering this quizz?</label> <br>
+                                    <input type="date"> 
+                                </p>
+
+                                <label>By clicking in this checkbox, you are allowing us to send you content to your email.</label>
+                                <input type="checkbox"> 
+                            </div>
+                            
+                        </fieldset>
+                    </p>
+
+                    <input type="submit">
+                </fieldset>
+
+            </form>
+
+        </section>
+
+        <hr>
+        
+        <footer>
+            <p>Valentim Paulo | a22107873 | Universidade Lusófona | 2023</p>
+        </footer>
+        
+    </body> 
+
+</html>
