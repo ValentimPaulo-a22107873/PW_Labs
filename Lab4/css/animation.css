@@ -1,0 +1,225 @@
+body {
+    background-color: #101d30;
+}
+
+header {
+    grid-area: header;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+}
+
+header > .navbar {
+    display: flex;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > div > a {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-weight: bold;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: #CBE4DE;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+nav a:hover, .dropdown:hover .dropbtn {
+    background-color: transparent;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0a121d;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #CBE4DE;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: transparent;
+    color: #AA77FF;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+header > div > div > div > button > a{
+    color: #CBE4DE;
+    text-decoration: none;
+}
+
+.body2 {
+    display: flex;
+    width: 100%;
+    height: 92vh;
+}
+
+.animation1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+    background-color: #0a121d;
+}
+
+.animation2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 34%;
+    background-color: #0a121d;
+}
+
+.animation3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+    background-color: #0a121d;
+}
+
+.title {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.title2 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+
+.img {
+    width: 400px;
+    padding-bottom: 80px;
+}
+
+.img2 {
+    width: 400px;
+    transform: rotate(20deg);
+    padding-bottom: 60px;
+}
+
+.img3 {
+    width: 400px;
+    transition: 0.2s;
+}
+
+.img3:hover{
+    transform: translateY(20px) ;
+    filter:invert(100%);
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+.img4 {
+    width: 350px;
+    border-radius: 50%;
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    filter: drop-shadow(8px 8px 10px gray);
+   
+}
+
+.clip1{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: moon;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moon {
+    0%   { color: darkgreen; background-color: yellow; left:-120px; top:0px;}
+    20%  { color:green; background-color: rgb(175, 175, 32); left:360px; top:0px;}
+    50%  { color: greenyellow; background-color: yellowgreen; left:360px; top:-460px;}
+    75%  { color:yellow; background-color: greenyellow; left:-120px; top:-460px;}
+    100% { color: rgb(175, 175, 32); background-color: yellow; left:-120px; top:0px;}
+}
+
+.clip1{
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%);
+}
+
+.clip2{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: blue;
+    opacity: 0.3;
+}
+
+
+.clip2{
+    clip-path: polygon(0% 0%, 50% 100%, 100% 0%);
+}
+
+.clip3{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: rgb(107, 107, 226);
+}
+
+
+.clip3{
+    clip-path: polygon(0% 40%, 0% 60%, 100% 60%, 100% 40%);
+}
+
+.clip4{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: rgb(231, 162, 32);
+}
+
+
+.clip4{
+    clip-path: polygon(0% 0%, 20% 20%, 80% 20%, 100% 0%, 100% 60%, 60% 100%, 40% 100%, 0% 60%);
+}

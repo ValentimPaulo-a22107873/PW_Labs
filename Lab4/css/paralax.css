@@ -32,6 +32,7 @@ header > div > a {
 .dropdown {
     float: left;
     overflow: hidden;
+    
 }
 
 .dropdown .dropbtn {
@@ -54,7 +55,7 @@ nav a:hover, .dropdown:hover .dropbtn {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: transparent;
+    background-color: #0a121d;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
     z-index: 1;

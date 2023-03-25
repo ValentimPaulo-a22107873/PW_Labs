@@ -274,8 +274,29 @@ footer {
 }
 
 
+
+
+@media (min-width: 900px)  {
+
+    .grid1 {
+        display: grid;
+        width: 100%;
+        height: 100vh;
+        grid-template-areas: 
+        "header header header"
+        "main nav aside"
+        "footer footer footer";
+    
+        grid-template-columns: 20vw 40vw 40vw;
+        grid-template-rows: 90px 801px 70px;
+    }
+
+}
+
+
 .grid1 {
     display: grid;
+    width: 100%;
     height: 100vh;
     grid-template-areas: 
     "header header header"
@@ -368,3 +389,5 @@ aside {
 footer {
     grid-area: footer;
 }
+
+

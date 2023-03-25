@@ -270,6 +270,10 @@ p {
     border-radius: 20px;
 }
 
+.image3 {
+    border-radius: 20px;
+}
+
 .part2{
     display: grid;
     width: 100%;
@@ -307,3 +311,68 @@ p {
     font-weight: 700;
 }
 
+
+
+.count3 {
+    position: absolute;
+    left: 10px;
+    bottom: 370px;
+    z-index: 0;
+    opacity: 0.1;
+    font-size: 200px;
+    line-height: 100%;
+    font-weight: 700;
+}
+
+.poem1{
+    margin-bottom: 30px;
+}
+
+.poem1:hover{
+    transform: rotate(3deg);
+}
+
+.poem2:hover{
+    transform: rotate(-4deg);
+}
+
+.sentence {
+    margin: 5px;
+}
+
+.sentence:hover{
+    transform: translateX(3px);
+    color: #AA77FF;
+}
+
+#s1:hover{
+    font-size: 15px;
+}
+
+#s2:hover{
+    font-size: 15px;
+}
+
+#s3:hover{
+    font-size: 15px;
+}
+
+#s4:hover{
+    font-size: 15px;
+}
+
+#s5:hover{
+    font-size: 15px;
+}
+
+#s6:hover{
+    font-size: 15px;
+}
+
+#s7:hover{
+    font-size: 15px;
+}
+
+#s8:hover{
+    font-size: 15px;
+}
